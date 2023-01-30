@@ -6,4 +6,16 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: "Sources sans pro", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    max-width: 20%;
+    height: 30px;
 }
