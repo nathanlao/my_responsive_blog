@@ -9,13 +9,34 @@ body {
     font-family: "Sources sans pro", sans-serif;
 }
 
-header {
+.header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 1.25em;
+    background: #FFFFFF;
+    height: 60px;
+    
+    border: 2px solid red;
 }
 
-header img{
-    max-width: 20%;
-    height: 30px;
+.header .header-img {
+    max-width: 15%;
+    height: 25px;
+}
+
+.header .header-title {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 0.25em;
+    color: #0E0E0E;
+}
+
+.header .header-nav {
+    display: flex;
+    gap: 1.125em;
+    margin-left: auto;
+    list-style: none;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #090909;
 }
