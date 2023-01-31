@@ -19,19 +19,19 @@ body {
     height: 60px;
 }
 
-.header .header-img {
+.header-img {
     max-width: 15%;
     height: 25px;
 }
 
-.header .header-title {
+.header-title {
     font-weight: 700;
     font-size: 1rem;
     margin-left: 0.3em;
     color: #0E0E0E;
 }
 
-.header .header-nav {
+.header-nav {
     display: flex;
     gap: 2.5em;
     margin-left: auto;
@@ -152,7 +152,31 @@ body {
 }
 
 /* media query: breakpoint for tablet*/ 
-@media (min-width: 426px) {
+@media (min-width: 480px) {
+    .header {
+        padding: 2.8em;
+    }
+
+    .header-img {
+        height: 35px;
+    }
+    
+    .header-title {
+        font-size: 1.25rem;
+    }
+
+    .header-nav {
+        font-size: 1rem;
+    }
+
+    .section-intro .title {
+        max-width: 400px;
+    }
+
+    .section-intro .paragraph {
+        max-width: 500px;
+    }
+
     .articles {
 
     }
