@@ -57,6 +57,12 @@ body {
     background-size: cover;
     padding: 5.4em 1.25em 1.6em;
     color: #ffffff;
+
+    transition: all 0.2s ease-in-out; 
+}
+
+.section-intro:hover {
+    transform: scale(1.1); 
 }
 
 .date,
