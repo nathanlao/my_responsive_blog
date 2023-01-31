@@ -38,7 +38,11 @@ body {
     list-style: none;
     font-weight: 600;
     font-size: 0.75rem;
+}
+
+.header-nav a {
     color: #090909;
+    text-decoration: none;
 }
 
 /* Intro section */
