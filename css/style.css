@@ -157,7 +157,7 @@ body {
     .header {
         max-width: 1000px;
         margin: 0 auto;
-        padding: 2.8em;
+        padding: 2.5em;
     }
 
     .header-img {
@@ -193,5 +193,5 @@ body {
         max-width: 600px;
         font-size: 1rem;
     }
-    
+
 }
