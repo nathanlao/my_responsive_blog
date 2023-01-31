@@ -6,8 +6,10 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: "Sources sans pro", sans-serif;
+    font-family: "Source sans pro", sans-serif;
 }
+
+/* header */
 
 .header {
     display: flex;
@@ -15,8 +17,6 @@ body {
     padding: 1.25em;
     background: #FFFFFF;
     height: 60px;
-    
-    border: 2px solid red;
 }
 
 .header .header-img {
@@ -33,10 +33,50 @@ body {
 
 .header .header-nav {
     display: flex;
-    gap: 1.125em;
+    gap: 1.25em;
     margin-left: auto;
     list-style: none;
     font-weight: 600;
     font-size: 0.75rem;
     color: #090909;
+}
+
+/* Intro section */
+
+.section-link {
+    text-decoration: none;
+}
+
+.section-intro {
+    background-image:     
+        linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ), 
+        url("/images/thought.png");
+    background-size: cover;
+    padding: 5.4em 1.25em 1.6em;
+    color: #ffffff;
+}
+
+.section-date,
+.section-paragraph {
+    font-weight: 400;
+    margin: 0;
+}
+
+.section-date {
+    font-size: 0.75rem;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 1.93rem;
+    margin: 0.26em 0;
+    letter-spacing: -0.03em;
+}
+
+.section-paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
 }
