@@ -193,5 +193,20 @@ body {
         max-width: 600px;
         font-size: 1rem;
     }
+}
 
+/* Feature page: section */
+
+.feature-section {
+    border: 2px solid red;
+
+    padding: 2em 1.25em 3.2em;
+}
+
+.feature-section .date {
+    margin-bottom: 1em;
+}
+
+.feature-section .title {
+    margin: 0 0 0.5em;
 }
