@@ -184,7 +184,7 @@ body {
     grid-column: 1 / -1;
 }
 
-/* media query: breakpoint for tablet*/ 
+/* media query: breakpoint for tablet */ 
 @media (min-width: 480px) {
     .header {
         max-width: 1000px;
@@ -235,19 +235,21 @@ body {
         font-size: 1rem;
     }
 
-    /* .feature-section img {
-        display: block;
-        width: 900px;
-        height: 500px;
-        margin: 0 auto;
-    } */
-
     .feature-section {
-        padding: 4.4em 4em 3.6em;
+        margin: 0 4em 0em;
     }
 
     /* Utility contanier for feature page */
     .grey {
         background-color: #FAFAFA;
     }
+
+    .text-margin {
+        margin: 0 1.88em;
+    }
+}
+
+/* media query: breakpoint for laptop */ 
+@media (min-width: 768px) {
+
 }
