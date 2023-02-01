@@ -34,7 +34,6 @@ body {
 .header-nav {
     display: flex;
     gap: 2.5em;
-    margin-left: auto;
     list-style: none;
     font-weight: 600;
     font-size: 0.75rem;
