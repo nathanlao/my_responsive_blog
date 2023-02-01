@@ -275,6 +275,10 @@ body {
         font-size: 1rem;
     }
 
+    .about-me-commitment {
+        padding: 0em 1em;
+    }
+
     /* Utility contanier for feature page */
     .grey {
         background-color: #FAFAFA;
