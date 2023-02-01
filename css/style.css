@@ -17,6 +17,8 @@ body {
     padding: 1.25em;
     background: #FFFFFF;
     height: 60px;
+
+    position: relative;
 }
 
 .header-img {
@@ -48,6 +50,23 @@ body {
 .header-nav a:hover{
     color: #8d99ae;
 }
+
+.menu-icon {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+/* Ulitity class  */
+.hidden {
+    display: none;
+}
+
 
 /* Intro section */
 
@@ -224,12 +243,30 @@ body {
     grid-area: content;
 }
 
+@media (max-width: 479px) {
+    .header {    
+        position: relative;
+    }
+
+    .header-nav {    
+        position: absolute;
+        top: 45px;
+        left: auto;
+        right: 0;
+        width: 40%;
+        background-color: #fff;
+        padding: 1.25em;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        justify-content: center; 
+    }
+}
+
 /* media query: breakpoint for tablet */ 
 @media (min-width: 480px) {
     .header {
         max-width: 1000px;
         margin: 0 auto;
-        padding: 2.5em;
+        padding: 1.9em;
     }
 
     .header-img {
@@ -237,7 +274,7 @@ body {
     }
     
     .header-title {
-        font-size: 1.25rem;
+        font-size: 1.23rem;
     }
 
     .header-nav {
