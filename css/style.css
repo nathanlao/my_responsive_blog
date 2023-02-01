@@ -45,6 +45,10 @@ body {
     text-decoration: none;
 }
 
+.header-nav a:hover{
+    color: #8d99ae;
+}
+
 /* Intro section */
 
 .section-link {
@@ -277,5 +281,9 @@ body {
 
     .feature-section img {
         width: 50%;
+    }
+
+    .paragraph-title {
+        font-size: 1.5rem;
     }
 }
