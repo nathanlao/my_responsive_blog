@@ -193,6 +193,37 @@ body {
     grid-column: 1 / -1;
 }
 
+/* about me */
+.section-about-me {
+    padding: 1.625em 1.25em;
+}
+
+.about-me {
+    margin-bottom: 3.125em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    ". image ."
+    "title title title"
+    "content content content";
+}
+
+.about-me-img {
+    grid-area: image;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-me-title {
+    grid-area: title;
+    margin: 1.125em 0 0.6em;
+}
+
+.about-me-content {
+    grid-area: content;
+}
+
 /* media query: breakpoint for tablet */ 
 @media (min-width: 480px) {
     .header {
@@ -285,5 +316,35 @@ body {
 
     .paragraph-title {
         font-size: 1.5rem;
+    }
+
+    .section-about-me {
+        padding: 1.625em 3.3125em;
+    }
+    
+    .about-me {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "image title title"
+            "image content content"
+            "image content content";
+    }
+
+    .about-me-img {
+        grid-area: image;
+        justify-self: center;
+    }
+
+    .about-me-title {
+        grid-area: title;
+    }
+
+    .about-me-content {
+        grid-area: content;
+        max-width: 700px;
+    }
+
+    .about-me-commitment {
+        padding: 0.5em 9em;
     }
 }
