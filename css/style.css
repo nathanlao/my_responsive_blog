@@ -159,6 +159,11 @@ body {
     padding: 2em 1.25em 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.feature-wrapper {
+    max-width: 1000px;
 }
 
 .feature-section .date {
@@ -175,7 +180,6 @@ body {
 
 .feature-section img {
     width: 100%;
-    margin: 0 auto;
     border-radius: 3px;
 }
 
@@ -246,7 +250,7 @@ body {
 
 @media (min-width: 768px) {
     .header {
-        max-width: 1200px;
+        max-width: 1080px;
         margin: 0 auto;
         padding: 2.5em;
     }
@@ -268,15 +272,10 @@ body {
     }
 
     .feature-section .paragraph {
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
 
     .feature-section img {
         width: 50%;
-        height: 400px;
-    }
-
-    .text-margin {
-        margin: 0 9em;
     }
 }
