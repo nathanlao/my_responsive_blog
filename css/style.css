@@ -175,6 +175,7 @@ body {
 
 .feature-section img {
     width: 100%;
+    margin: 0 auto;
     border-radius: 3px;
 }
 
@@ -235,21 +236,47 @@ body {
         font-size: 1rem;
     }
 
-    .feature-section {
-        margin: 0 4em 0em;
-    }
-
     /* Utility contanier for feature page */
     .grey {
         background-color: #FAFAFA;
     }
-
-    .text-margin {
-        margin: 0 1.88em;
-    }
 }
 
-/* media query: breakpoint for laptop */ 
-@media (min-width: 768px) {
+/* media query: breakpoint for tablet */ 
 
+@media (min-width: 768px) {
+    .header {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2.5em;
+    }
+
+    .header-img {
+        height: 40px;
+    }
+    
+    .header-title {
+        font-size: 1.5rem;
+    }
+
+    .header-nav {
+        font-size: 1.25rem;
+    }
+
+    .feature-section .title {
+        font-size: 2vw;
+    }
+
+    .feature-section .paragraph {
+        font-size: 1vw;
+    }
+
+    .feature-section img {
+        width: 50%;
+        height: 400px;
+    }
+
+    .text-margin {
+        margin: 0 9em;
+    }
 }
