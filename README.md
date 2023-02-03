@@ -1,6 +1,6 @@
 # My Responsive Blog 
 
-Live Demo: https://legendary-pasca-03a838.netlify.app/
+Live Demo: https://cool-eclair-617b39.netlify.app
 
 <p>
 <img width="280" alt="Screen Shot 2023-02-01 at 4 25 06 PM" src="https://user-images.githubusercontent.com/75557717/216200445-f2172b07-aed7-4be3-b181-f8a9a674831e.png">
